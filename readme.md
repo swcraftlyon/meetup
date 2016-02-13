@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/swcraftlyon/meetup.png?label=ready&title=Ready)](https://waffle.io/swcraftlyon/meetup)
 # Welcome on Meetup-like project of Software Craftsmanship Lyon community
 
 /!\ If you prefer French, we try to keep French & English versions up to date : [see French readme](lisezmoi.md). Code is in English.
