@@ -11,4 +11,9 @@ public class EventTest {
         assertThat(true).isTrue();
     }
 
+    @Test
+    public void testEvent() {
+        Event event = new Event("Title");
+        assertThat(event.getTitle()).isEqualTo("Title");
+    }
 }
