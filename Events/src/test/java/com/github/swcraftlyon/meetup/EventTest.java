@@ -15,5 +15,7 @@ public class EventTest {
     public void testEvent() {
         Event event = new Event("Title");
         assertThat(event.getTitle()).isEqualTo("Title");
+        event.setTitle("Change Title");
+        assertThat(event.getTitle()).isEqualTo("Change Title");
     }
 }

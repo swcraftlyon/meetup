@@ -10,4 +10,8 @@ public class Event {
     public String getTitle() {
         return title;
     }
+
+    public String setTitle(String title) {
+        return null;
+    }
 }
