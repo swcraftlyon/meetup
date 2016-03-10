@@ -12,6 +12,6 @@ public class Event {
     }
 
     public String setTitle(String title) {
-        return null;
+        return title;
     }
 }
