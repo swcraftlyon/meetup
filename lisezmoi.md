@@ -61,3 +61,45 @@ d'autres veulent explorer de nouvelles choses (approche fonctionnelle, langages.
 - Licences : faire un projet libre et ouvert mène à discuter des licences, le sujet n'est pas très bien connu,
 seuls certaines personnes en savent plus...on a démarré avec une licence MIT.
 - "Micro-services" : attention au mot clé...(on a parlé de "petits" services, pour éviter de nommer le mot clé ;))
+
+## Contributions
+
+Les messages de commit doivent avoir le format suivant :
+
+    <type>(<portée>): <message>
+    
+    <description>
+
+### Types autorisés:
+
+- **feat** (nouvelle fonctionnalité au sens utilisateur et non au sens technique)
+- **fix** (correction d'erreur au sens utilisateur et non au sens technique)
+- **docs** (changements concernant la documentation)
+- **style** (formattage, point virgule manquants, etc; pas de changement de code fonctionnel)
+- **refactor** (refactoring de code fonctionnel, ie. renommage d'une variable)
+- **test** (ajout de tests manquants, refactoring de tests; pas de changement de code fonctionnel)
+- **chore** (modification de fichiers de build, de gestion de dépendances ou autres; pas de changement de code fonctionnel)
+
+### Example scope values:
+
+- init
+- ui
+- api
+- config
+- etc.
+
+La `<portée>` est facultative (ie. si le changement est global ou difficile à attribuer à un seul composant), dans quel cas les parenthèses sont omises.
+
+### Message
+
+Le message doit décrire la valeur ajoutée sur une ligne.
+
+### Description
+
+La `<description>` est facultative. Elle peut être ajoutée si un choix technique est important du point de vue du sofware craftmanship.
+
+Les issues résolues par le commit peuvent être également mentionnées à la fin de la `<description>` en ajoutant `closes #<issue>`.
+
+    closes #123, #124
+
+Les issues mentionnées seront automatiquement fermées une fois la Pull Request mergée. 
