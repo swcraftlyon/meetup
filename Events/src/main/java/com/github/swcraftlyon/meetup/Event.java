@@ -1,7 +1,7 @@
 package com.github.swcraftlyon.meetup;
 
 public class Event {
-    private String title;
+    private final String title;
 
     public Event(String title) {
         this.title = title;
@@ -9,9 +9,5 @@ public class Event {
 
     public String getTitle() {
         return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 }
