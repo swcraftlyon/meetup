@@ -80,7 +80,7 @@ Les messages de commit doivent avoir le format suivant :
 - **test** (ajout de tests manquants, refactoring de tests; pas de changement de code fonctionnel)
 - **chore** (modification de fichiers de build, de gestion de dépendances ou autres; pas de changement de code fonctionnel)
 
-### Example scope values:
+### Exemples de portée :
 
 - init
 - ui
