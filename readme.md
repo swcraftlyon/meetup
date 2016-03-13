@@ -61,3 +61,45 @@ some wants to discover new things (functional approach, languages...)
 - Licences : free and open project lead to discuss about licences, the subject is not really well known, 
 some people knows more about it...we started with a MIT licence.
 - "Micro-services" : beware of the keyword...(we talked about "small" services, to avoid naming it ;))
+
+## Contributing
+
+Commit messages should have the following format.
+
+    <type>(<scope>): <message>
+    
+    <description>
+
+### Allowed type values:
+
+- **feat** (new feature for the user, not a new feature for build script)
+- **fix** (bug fix for the user, not a fix to a build script)
+- **docs** (changes to the documentation)
+- **style** (formatting, missing semi colons, etc; no production code change)
+- **refactor** (refactoring production code, eg. renaming a variable)
+- **test** (adding missing tests, refactoring tests; no production code change)
+- **chore** (updating grunt tasks etc; no production code change)
+
+### Example scope values:
+
+- init
+- ui
+- api
+- config
+- etc.
+
+The `<scope>` can be empty (eg. if the change is a global or difficult to assign to a single component), in which case the parentheses are omitted.
+
+### Message
+
+The message should describe the added value on one line.
+
+### Description
+
+The `<description>` can be empty. It can be added if a technical choice is worth mentioning from a sofware craftman's point of view.
+
+Closed issues can be declared on the last line of `<description>` by adding `closes #<issue>`.
+
+    closes #123, #124
+
+Those issues will be automatically closed upon merging the Pull Request.
