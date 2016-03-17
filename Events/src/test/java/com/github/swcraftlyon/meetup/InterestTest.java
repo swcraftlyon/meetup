@@ -15,6 +15,11 @@ public class InterestTest {
     }
 
     @Test
+    public void testIsRoot(){
+        assertThat(interest.isRoot()).isTrue();
+    }
+
+    @Test
     public void testGetDescription() {
         assertThat(interest.getDescription()).isEqualTo("interest");
     }
@@ -26,8 +31,8 @@ public class InterestTest {
     }
 
     @Test
-    public void testIsParent() {
-        assertThat(interest.getParent()).isEqualTo(null);
+    public void testGetParentOfRootReturnsSelf() {
+        assertThat(interest.getParent()).isEqualTo(interest);
     }
 
     @Test
@@ -39,6 +44,7 @@ public class InterestTest {
         for (Object next : interest.getChildren()) {
             Interest child = (Interest) next;
             assertThat(child.getParent()).isEqualTo(interest);
+            assertThat(child.isRoot()).isFalse();
         }
     }
 }
