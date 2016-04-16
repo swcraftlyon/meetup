@@ -1,1 +1,5 @@
 rootProject.name='events'
+
+include 'domain'
+include 'someAdapter'
+include 'someOtherAdapter'

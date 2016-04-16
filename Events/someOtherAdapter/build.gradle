@@ -1,0 +1,6 @@
+dependencies {
+    compile project(':domain')
+    runtime project(':someAdapter')
+
+    //Put here dependencies specific to this project
+}

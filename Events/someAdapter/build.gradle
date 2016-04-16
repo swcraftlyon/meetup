@@ -1,0 +1,5 @@
+dependencies {
+    compile project(':domain')
+
+    //Put here dependencies specific to this project
+}
