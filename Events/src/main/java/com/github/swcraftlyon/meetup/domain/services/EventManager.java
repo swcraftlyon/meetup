@@ -1,14 +1,14 @@
 package com.github.swcraftlyon.meetup.domain.services;
 
-import com.github.swcraftlyon.meetup.domain.IPlanner;
+import com.github.swcraftlyon.meetup.domain.Planner;
 import com.github.swcraftlyon.meetup.domain.entities.Event;
 
 
 public class EventManager implements IEventManager {
 
-    private final IPlanner planner;
+    private final Planner planner;
 
-    public EventManager(IPlanner planner) {
+    public EventManager(Planner planner) {
         this.planner = planner;
     }
 
