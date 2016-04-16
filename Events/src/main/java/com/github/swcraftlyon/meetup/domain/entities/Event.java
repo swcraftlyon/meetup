@@ -1,6 +1,8 @@
-package com.github.swcraftlyon.meetup;
+package com.github.swcraftlyon.meetup.domain.entities;
+
 
 public class Event {
+
     private final String title;
 
     public Event(String title) {

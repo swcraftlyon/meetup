@@ -1,4 +1,4 @@
-package com.github.swcraftlyon.meetup;
+package com.github.swcraftlyon.meetup.domain.entities;
 
 import org.junit.Test;
 
